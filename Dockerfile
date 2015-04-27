@@ -21,7 +21,7 @@ RUN buildDeps='gcc libc6-dev make git'; \
     && rm -rf /var/lib/apt/lists/* \
     && mkdir -p /usr/src \
     && cd /usr/src \
-    && git clone https://github.com/antirez/disque.git \
+    && git clone https://github.com/skidder/disque.git \
     && cd disque \
     && make -C /usr/src/disque \
     && make -C /usr/src/disque install \
