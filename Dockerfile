@@ -23,6 +23,7 @@ RUN buildDeps='gcc libc6-dev make git'; \
     && cd /usr/src \
     && git clone https://github.com/antirez/disque.git \
     && cd disque \
+    && git checkout tags/1.0-rc1 \
     && make -C /usr/src/disque \
     && make -C /usr/src/disque install \
     && rm -rf /usr/src/disque \

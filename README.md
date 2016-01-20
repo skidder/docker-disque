@@ -1,7 +1,7 @@
 # docker-disque
 [![Docker Repository on Quay.io](https://quay.io/repository/skidder/disque/status "Docker Repository on Quay.io")](https://quay.io/repository/skidder/disque)
 
-Docker image for the Disque job messaging server, available on Quay: https://quay.io/repository/skidder/disque
+Docker image for the Disque job messaging server.  Currently using the `1.0-rc1` release from January 2, 2016.
 
 ## Installation
 Pull the container:
